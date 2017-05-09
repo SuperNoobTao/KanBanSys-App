@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title="add"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_remove"
+        android:icon="@drawable/ic_remove_white_24dp"
+        android:title="remove"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        android:title="refresh"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_set_device_id"
+        android:title="set device id"/>
+</menu>
